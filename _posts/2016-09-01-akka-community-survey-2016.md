@@ -22,7 +22,7 @@ It asks about module usage, your favorite language for Akka, areas of improvemen
 
 So, if you have some time to spare and would like to have an impact of Akka's future: *[take the Akka Community Survey 2016](https://lightbend.qualtrics.com/SE/?SID=SV_3VnWxXR09f7lAEd)*.
 
-Aditionally, as a little motivation, we'll be raffling away **100 Akka t-shirts** among the responsents of the survey. Every response who enters the raffle has a chance to win one. The only prerequisite is, that you give us your email address at the end of the survey. But you decide: You can take this anonymous survey without entering the drawing.
+Aditionally, as a little motivation, we'll be raffling away **100 Akka t-shirts** among the responsents of the survey. Every response who enters the raffle has a chance to win one. The only prerequisite is, that you give us your email address at the end of the survey. You can take this survey anonymously if you don't want to participate in the raffle.
 Winners will be notified within two weeks after we closed the survey.
 
 ![Win an Akka T-Shirt]({{ site.url }}/assets/akka-shirt.png)
