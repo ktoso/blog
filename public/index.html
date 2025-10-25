@@ -9,7 +9,7 @@
 <title>Life is Study | Life is Study</title>
 <meta name="title" content="Life is Study" />
 <meta name="description" content="" />
-<meta name="keywords" content="" />
+<meta name="keywords" content="announcement,community," />
 
 
 <meta property="og:url" content="http://localhost:1313/">
@@ -23,36 +23,41 @@
 
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Life is Study">
+      <meta name="twitter:site" content="@ktosopl">
 
 
 
 
   <meta itemprop="name" content="Life is Study">
+  <meta itemprop="datePublished" content="2025-10-25T00:00:00+00:00">
+  <meta itemprop="dateModified" content="2025-10-25T00:00:00+00:00">
 <meta name="referrer" content="no-referrer-when-downgrade" />
 
   <link rel="alternate" type="application/rss+xml" href="http://localhost:1313/index.xml" title="Life is Study" />
   <style>
   :root {
     --width: 720px;
-    --font-main: Verdana, sans-serif;
-    --font-secondary: Verdana, sans-serif;
+    --font-main: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    --font-secondary: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
     --font-scale: 1em;
     --background-color: #fff;
-    --heading-color: #222;
-    --text-color: #444;
-    --link-color: #3273dc;
-    --visited-color: #8b6fcb;
-    --blockquote-color: #222;
+    --heading-color: #15171A;
+    --text-color: #15171A;
+    --link-color: #0066cc;
+    --visited-color: #551a8b;
+    --blockquote-color: #15171A;
+    --border-color: #e5e5e5;
   }
 
   @media (prefers-color-scheme: dark) {
     :root {
-      --background-color: #01242e;
-      --heading-color: #eee;
+      --background-color: #15171A;
+      --heading-color: #fff;
       --text-color: #ddd;
       --link-color: #8cc2dd;
       --visited-color: #8b6fcb;
       --blockquote-color: #ccc;
+      --border-color: #333;
     }
   }
 
@@ -183,22 +188,134 @@
     color: var(--visited-color);
   }
 
+   
+  .site-header {
+    margin-bottom: 2em;
+  }
+
+  .site-header .logo {
+    font-size: 2em;
+    font-weight: normal;
+    margin-bottom: 0.2em;
+  }
+
+  .site-header .tagline {
+    color: var(--text-color);
+    opacity: 0.7;
+    font-size: 0.9em;
+    margin-bottom: 1em;
+  }
+
+   
+  .post-tags {
+    display: inline;
+    margin-left: 0.5em;
+    font-size: 0.85em;
+    color: var(--text-color);
+    opacity: 0.7;
+  }
+
+  .post-tags .tag {
+    margin-left: 0.3em;
+  }
+
 </style>
 
 </head>
 
 <body>
-  <header><a href="/" class="title">
-  <h2>Life is Study</h2>
-</a>
-<nav>
+  <header><header class="site-header">
+  <a href="/" class="title">
+    <h1 class="logo">λ Life is Study</h1>
+  </a>
+  
+  <p class="tagline">Programming languages, Concurrency &amp; Distributed Systems; but also, random hobby stuff.</p>
+  
+  <nav>
+<a href="/">Home</a>
+
+<a href="/author/">Author</a>
+
+
+
+<a href="https://twitter.com/ktosopl" target="_blank" rel="noopener">X/Twitter</a>
+
+
+<a href="https://mastodon.social/@ktoso" target="_blank" rel="noopener">Mastodon</a>
+
+
+<a href="https://bsky.app/profile/kto.so" target="_blank" rel="noopener">Bluesky</a>
+
+
+<a href="https://linkedin.com/in/konrad-ktoso-malawski" target="_blank" rel="noopener">LinkedIn</a>
+
+
+<a href="https://github.com/ktoso" target="_blank" rel="noopener">GitHub</a>
+
+
+<a href="/index.xml">RSS</a>
 </nav>
 </header>
+</header>
   <main>
-
+<content>
+  <h2>> ls</h2>
+  <ul class="blog-posts">
+    
+    <li>
+      <span>
+        <i>
+          <time datetime='2025-10-25'>
+            25 Oct, 2025
+          </time>
+        </i>
+      </span>
+      <a href="http://localhost:1313/posts/new-blog/">New blog</a>
+      
+    </li>
+    
+    <li>
+      <span>
+        <i>
+          <time datetime='2016-11-13'>
+            13 Nov, 2016
+          </time>
+        </i>
+      </span>
+      <a href="http://localhost:1313/posts/book-release-why-reactive-with-oreilly/">O&#39;Reilly Book Release: Why Reactive?</a>
+      
+      <span class="post-tags">
+        
+        <span class="tag">#announcement</span>
+        
+      </span>
+      
+    </li>
+    
+    <li>
+      <span>
+        <i>
+          <time datetime='2016-05-16'>
+            16 May, 2016
+          </time>
+        </i>
+      </span>
+      <a href="http://localhost:1313/posts/sckrk-100-meetings-96-whitepapers-5-years-and-more/">SCKRK - 100 meetings, 96 whitepapers, 5 years and more...</a>
+      
+      <span class="post-tags">
+        
+        <span class="tag">#community</span>
+        
+      </span>
+      
+    </li>
+    
+  </ul>
+</content>
 
   </main>
-  <footer>Made with <a href="https://github.com/janraasch/hugo-bearblog/">Hugo ʕ•ᴥ•ʔ Bear</a>
+  <footer>Powered by <a href="https://gohugo.io/">Hugo</a> and <a href="https://github.com/janraasch/hugo-bearblog/">Hugo Bear Blog</a><br>
+&copy; 2025 Konrad &#39;ktoso&#39; Malawski
 </footer>
 
   

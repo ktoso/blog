@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Book on Life is Study</title>
+    <link>https://kto.so/tags/book/</link>
+    <description>Recent content in Book on Life is Study</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 13 Nov 2016 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://kto.so/tags/book/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>O&#39;Reilly Book Release: Why Reactive?</title>
+      <link>https://kto.so/posts/book-release-why-reactive-with-oreilly/</link>
+      <pubDate>Sun, 13 Nov 2016 00:00:00 +0000</pubDate>
+      <guid>https://kto.so/posts/book-release-why-reactive-with-oreilly/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;This post was originally written on 13 Nov 2016.&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://kto.so/images/why-reactive-oreilly.png&#34; alt=&#34;Book cover image&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;O&amp;rsquo;Reilly recently reached out to me to write a small report / mini-book about reactive systems and architectures. The report is structured around explaining the various aspects of Reactive. Tracking it&amp;rsquo;s origins, through Reactive Programming (in chapter 2 &amp;ldquo;Reactive on the Application level&amp;rdquo;) and Reactive Systems (in chapter 3 &amp;ldquo;Reactive on the System level&amp;rdquo;).&lt;/p&gt;&#xA;&lt;p&gt;The book does not focus on any single implementation or library, and rather discusses the conceptual goals, benefits and trade-offs such architectures bring with them.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

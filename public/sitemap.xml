@@ -2,10 +2,42 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://kto.so/author/</loc>
+    <lastmod>2025-10-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://kto.so/</loc>
+    <lastmod>2025-10-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://kto.so/posts/new-blog/</loc>
+    <lastmod>2025-10-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://kto.so/posts/</loc>
+    <lastmod>2025-10-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://kto.so/tags/book/</loc>
+    <lastmod>2016-11-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://kto.so/tags/distributed-systems/</loc>
+    <lastmod>2016-11-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://kto.so/posts/book-release-why-reactive-with-oreilly/</loc>
+    <lastmod>2016-11-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://kto.so/tags/oreilly/</loc>
+    <lastmod>2016-11-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://kto.so/tags/reactive/</loc>
+    <lastmod>2016-11-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://kto.so/tags/</loc>
+    <lastmod>2016-11-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://kto.so/tags/community/</loc>
+    <lastmod>2016-05-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://kto.so/posts/sckrk-100-meetings-96-whitepapers-5-years-and-more/</loc>
+    <lastmod>2016-05-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://kto.so/categories/</loc>
   </url>
 </urlset>

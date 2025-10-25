@@ -2,3 +2,24 @@ baseURL = 'https://kto.so'
 languageCode = 'en-us'
 title = 'Life is Study'
 theme = 'hugo-bearblog'
+
+[params]
+  author = "Konrad 'ktoso' Malawski"
+  tagline = "Programming languages, Concurrency & Distributed Systems; but also, random hobby stuff."
+
+  [params.social]
+    twitter = "ktosopl"
+    mastodon = "ktoso"
+    bluesky = "kto.so"
+    linkedin = "konrad-ktoso-malawski"
+    github = "ktoso"
+
+[[menu.main]]
+  name = "Home"
+  url = "/"
+  weight = 1
+
+[[menu.main]]
+  name = "Author"
+  url = "/author/"
+  weight = 2

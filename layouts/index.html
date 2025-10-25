@@ -1,0 +1,30 @@
+{{ define "main" }}
+<content>
+  <h2>> ls</h2>
+  <ul class="blog-posts">
+    {{ range where .Site.RegularPages "Type" "posts" }}
+    <li>
+      <span>
+        <i>
+          <time datetime='{{ .Date.Format "2006-01-02" }}'>
+            {{ .Date.Format "02 Jan, 2006" }}
+          </time>
+        </i>
+      </span>
+      <a href="{{ .Permalink }}">{{ .Title }}</a>
+      {{ if .Params.tags }}
+      <span class="post-tags">
+        {{ range .Params.tags }}
+        <span class="tag">#{{ . }}</span>
+        {{ end }}
+      </span>
+      {{ end }}
+    </li>
+    {{ else }}
+    <li>
+      No posts yet
+    </li>
+    {{ end }}
+  </ul>
+</content>
+{{ end }}
