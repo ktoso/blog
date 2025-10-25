@@ -2,38 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Life is Study</title>
-    <link>http://localhost:1313/</link>
+    <link>https://kto.so/</link>
     <description>Recent content on Life is Study</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 25 Oct 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://kto.so/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Konrad &#39;ktoso&#39; Malawski</title>
-      <link>http://localhost:1313/author/</link>
+      <link>https://kto.so/author/</link>
       <pubDate>Sat, 25 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/author/</guid>
+      <guid>https://kto.so/author/</guid>
       <description>&lt;h1 id=&#34;konrad-ktoso-malawski&#34;&gt;Konrad &lt;code&gt;ktoso&lt;/code&gt; Malawski&lt;/h1&gt;&#xA;&lt;h2 id=&#34;active-open-source-projects&#34;&gt;Active Open Source projects&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;https://github.com/apple/swift&#34;&gt;Swift&lt;/a&gt;&lt;/strong&gt; language team&#xA;&lt;ul&gt;&#xA;&lt;li&gt;mainainer of concurrency runtime, multiple server ecosystem foundational libraries&#xA;concurrency. Involved in actor runtime design and co-authored multiple language evolution proposals.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;previously&#34;&gt;Previously&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Akka&lt;/strong&gt; at Lightbend (previously Typesafe)&#xA;&lt;ul&gt;&#xA;&lt;li&gt;maintained and designed multiple modules of the Akka ecosystem, including core, streams, cluster, as well as akka http and persistence (CQRS).&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/akka/akka&#34;&gt;Akka&lt;/a&gt; – core team member, 2014–2018&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/akka/akka-http&#34;&gt;Akka HTTP&lt;/a&gt; – core team, principal maintainer&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/reactive-streams/reactive-streams-jvm&#34;&gt;Reactive Streams (TCK)&lt;/a&gt; – integrated into Java 9+ via&#xA;JEP-266&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/git-commit-id/maven-git-commit-id-plugin&#34;&gt;git commit maven id plugin&lt;/a&gt; - a Maven build plugin created to emit and retain git build information into released projects; Used by large number of open and closed source projects across the entire Java ecosystem.&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/ktoso/sbt-jmh&#34;&gt;sbt-jmh&lt;/a&gt; and sbt-jol – primary benchmarking tools in Scala ecosystem&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;community&#34;&gt;Community&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;GeeCON&lt;/strong&gt; – conference organizer (2011~2017); ~1,200-person software engineering conference centered around the JVM,&lt;/li&gt;&#xA;&lt;li&gt;Meetups: Science paper reading club &amp;lsquo;Kraków Software Craftsmanship&amp;rsquo; (SCKRK) (co-lead), ScalaKraków (co-founder), PolishJUG, Lambda Lounge Kraków, GDGKraków&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;conference-talks&#34;&gt;Conference talks&lt;/h2&gt;&#xA;&#xA;&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;&#xA;    &lt;iframe src=&#34;https://www.youtube.com/embed/videoseries?list=PLZEp1qbPqi4rAuIv5NzSoye2sXNURn1bi&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;&#xA;&lt;/div&gt;</description>
     </item>
     <item>
       <title>New blog</title>
-      <link>http://localhost:1313/posts/new-blog/</link>
+      <link>https://kto.so/posts/new-blog/</link>
       <pubDate>Sat, 25 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/new-blog/</guid>
+      <guid>https://kto.so/posts/new-blog/</guid>
       <description>&lt;p&gt;I moved the blog to a static engine and over to github pages.&lt;/p&gt;&#xA;&lt;p&gt;Maybe some random posts to follow, we&amp;rsquo;ll see.&lt;/p&gt;</description>
     </item>
     <item>
       <title>O&#39;Reilly Book Release: Why Reactive?</title>
-      <link>http://localhost:1313/posts/book-release-why-reactive-with-oreilly/</link>
+      <link>https://kto.so/posts/book-release-why-reactive-with-oreilly/</link>
       <pubDate>Sun, 13 Nov 2016 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/book-release-why-reactive-with-oreilly/</guid>
-      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;This post was originally written on 13 Nov 2016.&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/why-reactive-oreilly.png&#34; alt=&#34;Book cover image&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;O&amp;rsquo;Reilly recently reached out to me to write a small report / mini-book about reactive systems and architectures. The report is structured around explaining the various aspects of Reactive. Tracking it&amp;rsquo;s origins, through Reactive Programming (in chapter 2 &amp;ldquo;Reactive on the Application level&amp;rdquo;) and Reactive Systems (in chapter 3 &amp;ldquo;Reactive on the System level&amp;rdquo;).&lt;/p&gt;&#xA;&lt;p&gt;The book does not focus on any single implementation or library, and rather discusses the conceptual goals, benefits and trade-offs such architectures bring with them.&lt;/p&gt;</description>
+      <guid>https://kto.so/posts/book-release-why-reactive-with-oreilly/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;This post was originally written on 13 Nov 2016.&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://kto.so/images/why-reactive-oreilly.png&#34; alt=&#34;Book cover image&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;O&amp;rsquo;Reilly recently reached out to me to write a small report / mini-book about reactive systems and architectures. The report is structured around explaining the various aspects of Reactive. Tracking it&amp;rsquo;s origins, through Reactive Programming (in chapter 2 &amp;ldquo;Reactive on the Application level&amp;rdquo;) and Reactive Systems (in chapter 3 &amp;ldquo;Reactive on the System level&amp;rdquo;).&lt;/p&gt;&#xA;&lt;p&gt;The book does not focus on any single implementation or library, and rather discusses the conceptual goals, benefits and trade-offs such architectures bring with them.&lt;/p&gt;</description>
     </item>
     <item>
       <title>SCKRK - 100 meetings, 96 whitepapers, 5 years and more...</title>
-      <link>http://localhost:1313/posts/sckrk-100-meetings-96-whitepapers-5-years-and-more/</link>
+      <link>https://kto.so/posts/sckrk-100-meetings-96-whitepapers-5-years-and-more/</link>
       <pubDate>Mon, 16 May 2016 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/sckrk-100-meetings-96-whitepapers-5-years-and-more/</guid>
+      <guid>https://kto.so/posts/sckrk-100-meetings-96-whitepapers-5-years-and-more/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;This post was originally written on 16 May 2016.&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;Over the last years I&amp;rsquo;ve been had the privilege of traveling quite a bit and been able to attend various conferences and user group meetings in various countries. Yet, I&amp;rsquo;m still to find another as awesome and life-changing (sic, not an over-statement) group as &lt;a href=&#34;https://web.archive.org/web/20180816224526/http://sckrk.com/&#34;&gt;SCKRK&lt;/a&gt; – yet, you&amp;rsquo;ve probably never heard of it. Which is not surprising really since it&amp;rsquo;s a local and technically speaking small initiative.&lt;/p&gt;</description>
     </item>
   </channel>
