@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-us">
 
-<head>
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
   <meta http-equiv="X-Clacks-Overhead" content="GNU Terry Pratchett" />
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -10,10 +10,11 @@
 <meta name="description" content="Konrad ktoso Malawski
 Active Open Source projects
 
-Swift language team
+Swift language team, Swift on Server Work Group (SSWG)
 
-mainainer of concurrency runtime, multiple server ecosystem foundational libraries
-concurrency. Involved in actor runtime design and co-authored multiple language evolution proposals.
+Primarily focused on Swift Concurrency (actors, distributed actors, structured concurrency, etc.), and improving the language user-experience, with a focus towards for serverside use-cases.
+Created and maintaining foundational telemetry libraries (e.g. swift-distributed-tracing), as well as language interoperability with Java.
+Designed or co-authored multiple Swift evolution proposals.
 
 
 
@@ -24,14 +25,17 @@ Akka at Lightbend (previously Typesafe)
 maintained and designed multiple modules of the Akka ecosystem, including core, streams, cluster, as well as akka http and persistence (CQRS).
 
 
-Akka – core team member, 2014–2018
-Akka HTTP – core team, principal maintainer
-Reactive Streams (TCK) – integrated into Java 9&#43; via
-JEP-266
+Akka – core team member, maintained various modules, including core, cluster as well as persistence.
+Akka HTTP – core team, lead maintainer for a period of time
 
 
-git commit maven id plugin - a Maven build plugin created to emit and retain git build information into released projects; Used by large number of open and closed source projects across the entire Java ecosystem.
-sbt-jmh and sbt-jol – primary benchmarking tools in Scala ecosystem
+Reactive Streams – co-designed the types and protocol while part of the Akka team, along with various industry implementors and project leads (RxJava, Reactor, etc.), also implemented the Technology Compatibility Kit which allowed implementations to test their conformance to the specification.
+
+Reactive Streams were the blueprint of java.util.concurrent.Flow which was included in Java9 as part of JEP-266: More Concurrency Updates
+
+
+Maven git commit maven id plugin - a Maven build plugin created to emit and retain git build information into released projects; Used by large number of open and closed source projects across the entire Java ecosystem.
+sbt-jmh and sbt-jol – The best integration for OpenJDK&rsquo;s JMH benchmarking tool with sbt (the Scala build tool)
 
 Community
 
@@ -46,10 +50,10 @@ Conference talks
 <meta name="keywords" content="" />
 
 
-<meta property="og:url" content="https://kto.so/author/">
+<meta property="og:url" content="http://localhost:1313/author/">
   <meta property="og:site_name" content="Life is Study">
   <meta property="og:title" content="Konrad &#39;ktoso&#39; Malawski">
-  <meta property="og:description" content="Konrad ktoso Malawski Active Open Source projects Swift language team mainainer of concurrency runtime, multiple server ecosystem foundational libraries concurrency. Involved in actor runtime design and co-authored multiple language evolution proposals. Previously Akka at Lightbend (previously Typesafe) maintained and designed multiple modules of the Akka ecosystem, including core, streams, cluster, as well as akka http and persistence (CQRS). Akka – core team member, 2014–2018 Akka HTTP – core team, principal maintainer Reactive Streams (TCK) – integrated into Java 9&#43; via JEP-266 git commit maven id plugin - a Maven build plugin created to emit and retain git build information into released projects; Used by large number of open and closed source projects across the entire Java ecosystem. sbt-jmh and sbt-jol – primary benchmarking tools in Scala ecosystem Community GeeCON – conference organizer (2011~2017); ~1,200-person software engineering conference centered around the JVM, Meetups: Science paper reading club ‘Kraków Software Craftsmanship’ (SCKRK) (co-lead), ScalaKraków (co-founder), PolishJUG, Lambda Lounge Kraków, GDGKraków Conference talks">
+  <meta property="og:description" content="Konrad ktoso Malawski Active Open Source projects Swift language team, Swift on Server Work Group (SSWG) Primarily focused on Swift Concurrency (actors, distributed actors, structured concurrency, etc.), and improving the language user-experience, with a focus towards for serverside use-cases. Created and maintaining foundational telemetry libraries (e.g. swift-distributed-tracing), as well as language interoperability with Java. Designed or co-authored multiple Swift evolution proposals. Previously Akka at Lightbend (previously Typesafe) maintained and designed multiple modules of the Akka ecosystem, including core, streams, cluster, as well as akka http and persistence (CQRS). Akka – core team member, maintained various modules, including core, cluster as well as persistence. Akka HTTP – core team, lead maintainer for a period of time Reactive Streams – co-designed the types and protocol while part of the Akka team, along with various industry implementors and project leads (RxJava, Reactor, etc.), also implemented the Technology Compatibility Kit which allowed implementations to test their conformance to the specification. Reactive Streams were the blueprint of java.util.concurrent.Flow which was included in Java9 as part of JEP-266: More Concurrency Updates Maven git commit maven id plugin - a Maven build plugin created to emit and retain git build information into released projects; Used by large number of open and closed source projects across the entire Java ecosystem. sbt-jmh and sbt-jol – The best integration for OpenJDK’s JMH benchmarking tool with sbt (the Scala build tool) Community GeeCON – conference organizer (2011~2017); ~1,200-person software engineering conference centered around the JVM, Meetups: Science paper reading club ‘Kraków Software Craftsmanship’ (SCKRK) (co-lead), ScalaKraków (co-founder), PolishJUG, Lambda Lounge Kraków, GDGKraków Conference talks">
   <meta property="og:locale" content="en_us">
   <meta property="og:type" content="article">
     <meta property="article:published_time" content="2025-10-25T00:00:00+00:00">
@@ -60,17 +64,17 @@ Conference talks
 
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Konrad &#39;ktoso&#39; Malawski">
-  <meta name="twitter:description" content="Konrad ktoso Malawski Active Open Source projects Swift language team mainainer of concurrency runtime, multiple server ecosystem foundational libraries concurrency. Involved in actor runtime design and co-authored multiple language evolution proposals. Previously Akka at Lightbend (previously Typesafe) maintained and designed multiple modules of the Akka ecosystem, including core, streams, cluster, as well as akka http and persistence (CQRS). Akka – core team member, 2014–2018 Akka HTTP – core team, principal maintainer Reactive Streams (TCK) – integrated into Java 9&#43; via JEP-266 git commit maven id plugin - a Maven build plugin created to emit and retain git build information into released projects; Used by large number of open and closed source projects across the entire Java ecosystem. sbt-jmh and sbt-jol – primary benchmarking tools in Scala ecosystem Community GeeCON – conference organizer (2011~2017); ~1,200-person software engineering conference centered around the JVM, Meetups: Science paper reading club ‘Kraków Software Craftsmanship’ (SCKRK) (co-lead), ScalaKraków (co-founder), PolishJUG, Lambda Lounge Kraków, GDGKraków Conference talks">
+  <meta name="twitter:description" content="Konrad ktoso Malawski Active Open Source projects Swift language team, Swift on Server Work Group (SSWG) Primarily focused on Swift Concurrency (actors, distributed actors, structured concurrency, etc.), and improving the language user-experience, with a focus towards for serverside use-cases. Created and maintaining foundational telemetry libraries (e.g. swift-distributed-tracing), as well as language interoperability with Java. Designed or co-authored multiple Swift evolution proposals. Previously Akka at Lightbend (previously Typesafe) maintained and designed multiple modules of the Akka ecosystem, including core, streams, cluster, as well as akka http and persistence (CQRS). Akka – core team member, maintained various modules, including core, cluster as well as persistence. Akka HTTP – core team, lead maintainer for a period of time Reactive Streams – co-designed the types and protocol while part of the Akka team, along with various industry implementors and project leads (RxJava, Reactor, etc.), also implemented the Technology Compatibility Kit which allowed implementations to test their conformance to the specification. Reactive Streams were the blueprint of java.util.concurrent.Flow which was included in Java9 as part of JEP-266: More Concurrency Updates Maven git commit maven id plugin - a Maven build plugin created to emit and retain git build information into released projects; Used by large number of open and closed source projects across the entire Java ecosystem. sbt-jmh and sbt-jol – The best integration for OpenJDK’s JMH benchmarking tool with sbt (the Scala build tool) Community GeeCON – conference organizer (2011~2017); ~1,200-person software engineering conference centered around the JVM, Meetups: Science paper reading club ‘Kraków Software Craftsmanship’ (SCKRK) (co-lead), ScalaKraków (co-founder), PolishJUG, Lambda Lounge Kraków, GDGKraków Conference talks">
       <meta name="twitter:site" content="@ktosopl">
 
 
 
 
   <meta itemprop="name" content="Konrad &#39;ktoso&#39; Malawski">
-  <meta itemprop="description" content="Konrad ktoso Malawski Active Open Source projects Swift language team mainainer of concurrency runtime, multiple server ecosystem foundational libraries concurrency. Involved in actor runtime design and co-authored multiple language evolution proposals. Previously Akka at Lightbend (previously Typesafe) maintained and designed multiple modules of the Akka ecosystem, including core, streams, cluster, as well as akka http and persistence (CQRS). Akka – core team member, 2014–2018 Akka HTTP – core team, principal maintainer Reactive Streams (TCK) – integrated into Java 9&#43; via JEP-266 git commit maven id plugin - a Maven build plugin created to emit and retain git build information into released projects; Used by large number of open and closed source projects across the entire Java ecosystem. sbt-jmh and sbt-jol – primary benchmarking tools in Scala ecosystem Community GeeCON – conference organizer (2011~2017); ~1,200-person software engineering conference centered around the JVM, Meetups: Science paper reading club ‘Kraków Software Craftsmanship’ (SCKRK) (co-lead), ScalaKraków (co-founder), PolishJUG, Lambda Lounge Kraków, GDGKraków Conference talks">
+  <meta itemprop="description" content="Konrad ktoso Malawski Active Open Source projects Swift language team, Swift on Server Work Group (SSWG) Primarily focused on Swift Concurrency (actors, distributed actors, structured concurrency, etc.), and improving the language user-experience, with a focus towards for serverside use-cases. Created and maintaining foundational telemetry libraries (e.g. swift-distributed-tracing), as well as language interoperability with Java. Designed or co-authored multiple Swift evolution proposals. Previously Akka at Lightbend (previously Typesafe) maintained and designed multiple modules of the Akka ecosystem, including core, streams, cluster, as well as akka http and persistence (CQRS). Akka – core team member, maintained various modules, including core, cluster as well as persistence. Akka HTTP – core team, lead maintainer for a period of time Reactive Streams – co-designed the types and protocol while part of the Akka team, along with various industry implementors and project leads (RxJava, Reactor, etc.), also implemented the Technology Compatibility Kit which allowed implementations to test their conformance to the specification. Reactive Streams were the blueprint of java.util.concurrent.Flow which was included in Java9 as part of JEP-266: More Concurrency Updates Maven git commit maven id plugin - a Maven build plugin created to emit and retain git build information into released projects; Used by large number of open and closed source projects across the entire Java ecosystem. sbt-jmh and sbt-jol – The best integration for OpenJDK’s JMH benchmarking tool with sbt (the Scala build tool) Community GeeCON – conference organizer (2011~2017); ~1,200-person software engineering conference centered around the JVM, Meetups: Science paper reading club ‘Kraków Software Craftsmanship’ (SCKRK) (co-lead), ScalaKraków (co-founder), PolishJUG, Lambda Lounge Kraków, GDGKraków Conference talks">
   <meta itemprop="datePublished" content="2025-10-25T00:00:00+00:00">
   <meta itemprop="dateModified" content="2025-10-25T00:00:00+00:00">
-  <meta itemprop="wordCount" content="160">
+  <meta itemprop="wordCount" content="263">
 <meta name="referrer" content="no-referrer-when-downgrade" />
 
   <style>
@@ -302,10 +306,11 @@ Conference talks
   <h1 id="konrad-ktoso-malawski">Konrad <code>ktoso</code> Malawski</h1>
 <h2 id="active-open-source-projects">Active Open Source projects</h2>
 <ul>
-<li><strong><a href="https://github.com/apple/swift">Swift</a></strong> language team
+<li><strong><a href="https://github.com/apple/swift">Swift</a></strong> language team, Swift on Server Work Group (<a href="https://www.swift.org/sswg/">SSWG</a>)
 <ul>
-<li>mainainer of concurrency runtime, multiple server ecosystem foundational libraries
-concurrency. Involved in actor runtime design and co-authored multiple language evolution proposals.</li>
+<li>Primarily focused on Swift Concurrency (actors, distributed actors, structured concurrency, etc.), and improving the language user-experience, with a focus towards for serverside use-cases.</li>
+<li>Created and maintaining foundational telemetry libraries (e.g. <a href="https://github.com/apple/swift-distributed-tracing">swift-distributed-tracing</a>), as well as language interoperability with <a href="https://github.com/swiftlang/swift-java">Java</a>.</li>
+<li>Designed or co-authored multiple <a href="https://www.swift.org/swift-evolution/#?search=konrad%20malawski">Swift evolution proposals</a>.</li>
 </ul>
 </li>
 </ul>
@@ -316,14 +321,17 @@ concurrency. Involved in actor runtime design and co-authored multiple language 
 <li>maintained and designed multiple modules of the Akka ecosystem, including core, streams, cluster, as well as akka http and persistence (CQRS).</li>
 </ul>
 <ul>
-<li><a href="https://github.com/akka/akka">Akka</a> – core team member, 2014–2018</li>
-<li><a href="https://github.com/akka/akka-http">Akka HTTP</a> – core team, principal maintainer</li>
-<li><a href="https://github.com/reactive-streams/reactive-streams-jvm">Reactive Streams (TCK)</a> – integrated into Java 9+ via
-JEP-266</li>
+<li><a href="https://github.com/akka/akka">Akka</a> – core team member, maintained various modules, including core, cluster as well as persistence.</li>
+<li><a href="https://github.com/akka/akka-http"><strong>Akka HTTP</strong></a> – core team, lead maintainer for a period of time</li>
 </ul>
 </li>
-<li><a href="https://github.com/git-commit-id/maven-git-commit-id-plugin">git commit maven id plugin</a> - a Maven build plugin created to emit and retain git build information into released projects; Used by large number of open and closed source projects across the entire Java ecosystem.</li>
-<li><a href="https://github.com/ktoso/sbt-jmh">sbt-jmh</a> and sbt-jol – primary benchmarking tools in Scala ecosystem</li>
+<li><a href="https://github.com/reactive-streams/reactive-streams-jvm"><strong>Reactive Streams</strong></a> – co-designed the types and protocol while part of the Akka team, along with various industry implementors and project leads (RxJava, Reactor, etc.), also implemented the Technology Compatibility Kit which allowed implementations to test their conformance to the specification.
+<ul>
+<li>Reactive Streams were the blueprint of <a href="https://docs.oracle.com/javase/9/docs/api/java/util/concurrent/Flow.html">java.util.concurrent.<strong>Flow</strong></a> which was included in Java9 as part of <a href="https://openjdk.org/jeps/299">JEP-266: More Concurrency Updates</a></li>
+</ul>
+</li>
+<li>Maven <a href="https://github.com/git-commit-id/maven-git-commit-id-plugin"><strong>git commit maven id plugin</strong></a> - a Maven build plugin created to emit and retain git build information into released projects; Used by large number of open and closed source projects across the entire Java ecosystem.</li>
+<li><a href="https://github.com/ktoso/sbt-jmh"><strong>sbt-jmh</strong></a> and <strong>sbt-jol</strong> – The best integration for OpenJDK&rsquo;s JMH benchmarking tool with sbt (the Scala build tool)</li>
 </ul>
 <h2 id="community">Community</h2>
 <ul>
